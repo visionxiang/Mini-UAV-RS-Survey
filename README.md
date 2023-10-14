@@ -15,6 +15,15 @@ This repository contains a collection of research papers and resources for Mini-
 
 ## Background
 
+The past few decades have witnessed great progress of unmanned aircraft vehicles (UAVs) in civilian fields, especially in photogrammetry and remote sensing. In contrast with the platforms of manned aircraft and satellites, the UAV platform holds many promising characteristics: flexibility, efficiency, high-spatial/temporal resolution, low cost, easy operation, etc., which make it an effective complement to other remote sensing platforms and a cost-effective means for remote sensing. In light of the popularity and expansion of UAV-based remote sensing in recent years, this paper provides a systematic survey on the recent advances and future prospects of UAVs in the remote-sensing community. 
+
+Specifically, this paper is devoted to present:
+- The main challenges and key technologies of remote-sensing data processing based on UAVs are discussed and summarized. 
+- A systematic survey of data processing technologies, categorized into eight different themes. In each section, we provide a critical overview of the state-of-the-art, illustrations, current challenges and possible future works;
+- A detailed overview of recent potential applications of UAVs in remote sensing;
+- A discussion of the future directions and challenges of UAV-RS from the point of view of platform and technology.
+
+We hope this paper will provide remote-sensing researchers an overall picture of recent UAV-based remote sensing developments and help guide further research on this topic.
 
 
 
