@@ -9,6 +9,9 @@ This repository contains a collection of research papers and resources for Mini-
 
 
 ## Table of Contents
+- [Background](#Background)
+- [Survey](#Survey)
+     - [1. Related Surveys](#1.-Related-Surveys)
 
 
 
@@ -31,7 +34,7 @@ We hope this paper will provide remote-sensing researchers an overall picture of
 
 ## Survey
 
-### Related Surveys
+### 1. Related Surveys
 
 | **Year** | **Pub.** | **Title**          | **Links**        |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
