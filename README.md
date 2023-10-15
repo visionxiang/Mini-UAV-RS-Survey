@@ -35,7 +35,7 @@ We hope this paper will provide remote-sensing researchers an overall picture of
 
 | **Year** | **Pub.** | **Title**          | **Links**        |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
-| 2019 | GRSM | Mini-Unmanned Aerial Vehicle-Based Remote Sensing: Techniques, Applications, and Prospects <br> <sup><sub>Tian-Zhu Xiang, Gui-Song Xia, Liangpei Zhang</sub></sup>  | [Paper](https://arxiv.org/abs/1812.07770)
+| 2019 | GRSM | **Mini-Unmanned Aerial Vehicle-Based Remote Sensing: Techniques, Applications, and Prospects** <br> <sup><sub>Tian-Zhu Xiang, Gui-Song Xia, Liangpei Zhang</sub></sup>  | [Paper](https://arxiv.org/abs/1812.07770)
 | 2017  | RS | Hyperspectral Imaging: A Review on UAV-Based Sensors, Data Processing, and Applications for Agriculture and Forestry <br> <sup><sub>**</sub></sup>  | [Paper]()
 | 2017 | IJRS | UAS, Sensors, and Data Processing in Agroforestry: A Review Towards Practical Applications <br> <sup><sub>**</sub></sup>  | [Paper]()
 | 2017 | IJRS | Forestry Applications of UAVs in Europe: A Review  <br> <sup><sub>**</sub></sup>  | [Paper]()
