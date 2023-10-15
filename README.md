@@ -31,6 +31,39 @@ We hope this paper will provide remote-sensing researchers an overall picture of
 
 ## Survey
 
+### Related Surveys
+
+| **Year** | **Pub.** | **Title**          | **Links**        |
+| :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
+| 2019 | GRSM | Mini-Unmanned Aerial Vehicle-Based Remote Sensing: Techniques, Applications, and Prospects <br> <sup><sub>Tian-Zhu Xiang, Gui-Song Xia, Liangpei Zhang</sub></sup>  | [Paper](https://arxiv.org/abs/1812.07770)
+| 2017  | RS | Hyperspectral Imaging: A Review on UAV-Based Sensors, Data Processing, and Applications for Agriculture and Forestry <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2017 | IJRS | UAS, Sensors, and Data Processing in Agroforestry: A Review Towards Practical Applications <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2017 | IJRS | Forestry Applications of UAVs in Europe: A Review  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2017 | GRSM | Unmanned Aerial Vehicles and Spatial Thinking: Boarding Education With Geotechnology and Drones <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2017 | RS | Review of the Current State of UAV Regulations  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2017 | IJRS | UAVs: Regulations and Law Enforcement  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2016 |  RSE | UAVs as Remote Sensing Platform in Glaciology: Present Applications and Future Prospects  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2015  | PERS | Overview and Current Status of Remote Sensing Applications Based on Unmanned Aerial Vehicles (UAVs)  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2014  | <sup><sub>ISPRS JPRS</sub></sup> | Unmanned Aerial Systems for Photogrammetry and Remote Sensing: A Review  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2014 | GISRS | Recent Applications of Unmanned Aerial Imagery in Natural Resource Management  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2012 | RS | Unmanned Aircraft Systems in Remote Sensing and Scientific Research: Classification and Considerations of Use  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2011 | GISRS | Small-Scale Unmanned Aerial Vehicles in Environmental Remote Sensing: Challenges and Opportunities  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| :triangular_flag_on_post: | `Tech.` |  | 
+| 2016 | <sup><sub>ISPRS JPRS</sub></sup> | Recent Developments in Large-Scale Tie-Point Matching  <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2014 | PHOR | State of the Art in High Density Image Matching   <br> <sup><sub>**</sub></sup>  | [Paper]()
+| 2012 | PHOR | Development and Status of Image Matching in Photogrammetry  <br> <sup><sub>**</sub></sup>  | [Paper]()
+
+
+<sup><sub>*This table shows only surveys published in top remote sensing journals.</sub></sup>   
+<sup><sub>*PERS: Photogrammetric Engineering and Remote Sensing; ISPRS JPRS: International Society for Photogrammetry and Remote Sensing Journal of Photogrammetry and Remote Sensing; RS: Remote Sensing; IJRS: International Journal of Remote Sensing; RSE: Remote Sensing of Environment; GISRS: GIScience & Remote Sensing; PHOR: The Photogrammetric Record; GRSM: IEEE Geoscience and Remote Sensing Magazine.</sub></sup>
+
+
+
+
+
+
+
+
 
 
 
