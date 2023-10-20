@@ -37,7 +37,7 @@ Specifically, this paper is devoted to present:
 - A detailed overview of recent potential applications of UAVs in remote sensing;
 - A discussion of the future directions and challenges of UAV-RS from the point of view of platform and technology.
 
-We hope this paper will provide remote-sensing researchers an overall picture of recent UAV-based remote sensing developments and help guide further research on this topic.
+We hope this work will provide remote-sensing researchers an overall picture of recent UAV-based remote sensing developments and help guide further research on this topic.
 
 
 
@@ -77,10 +77,41 @@ We hope this paper will provide remote-sensing researchers an overall picture of
 
 ### 2. Camera Calibration
 
+- [**Awesome-Deep-Camera-Calibration**](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration)
+- [awesome-image-rectification](https://github.com/bchao1/awesome-image-rectification/tree/master)
+
+
 | **Year** | **Pub.** | **Title**          | **Links**        |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
-| 
-
+| 2023 | arXiv | Deep Learning for Camera Calibration and Beyond: A Survey   <br> <sub><sup>*Kang Liao, Lang Nie, Shujuan Huang, Chunyu Lin, Jing Zhang, Yao Zhao, Moncef Gabbouj, Dacheng Tao*</sup></sub> | [Paper](https://arxiv.org/abs/2303.10559)/[Proj](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration)
+| 2023 | TIP | Model-aware Pre-training for Radial Distortion Rectification   <br> <sub><sup>*Wendi Wang; Hao Feng; Wengang Zhou; Zhaokang Liao; Houqiang Li*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/10285626)
+| 2023 | TIP | SIR: Self-Supervised Image Rectification via Seeing the Same Scene From Multiple Different Lenses   <br> <sub><sup>*Jinlong Fan; Jing Zhang; Dacheng Tao*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/10012683)/[Code](https://github.com/loong8888/SIR)
+| 2023 | TCSVT | DaFIR: Distortion-aware Representation Learning for Fisheye Image Rectification   <br> <sub><sup>*Zhaokang Liao; Wengang Zhou; Houqiang Li*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/10251977)/[Code](https://github.com/lzk9508/DaFIR)
+| 2023 | ICCV | Innovating Real Fisheye Image Correction with Dual Diffusion Architecture   <br> <sub><sup>*Shangrong Yang, Chunyu Lin, Kang Liao, Yao Zhao*</sup></sub> | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Yang_Innovating_Real_Fisheye_Image_Correction_with_Dual_Diffusion_Architecture_ICCV_2023_paper.html)
+| 2023 | ICCV | DarSwin: Distortion Aware Radial Swin Transformer  <br> <sub><sup>*Akshaya Athwale, Arman Afrasiyabi, Justin Lagüe, Ichrak Shili, Ola Ahmad, Jean-François Lalonde*</sup></sub> | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Athwale_DarSwin_Distortion_Aware_Radial_Swin_Transformer_ICCV_2023_paper.html)/[Code](https://lvsn.github.io/darswin/)
+| 2023 | ICCV | Deep Geometry-Aware Camera Self-Calibration from Video  <br> <sub><sup>*Annika Hagemann, Moritz Knorr, Christoph Stiller*</sup></sub> | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Hagemann_Deep_Geometry-Aware_Camera_Self-Calibration_from_Video_ICCV_2023_paper.html)/[Code](https://github.com/boschresearch/droidcalib)
+| 2023 | CVPR | Wide-Angle Rectification via Content-Aware Conformal Mapping   <br> <sub><sup>*Qi Zhang, Hongdong Li, Qing Wang*</sup></sub> | [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Wide-Angle_Rectification_via_Content-Aware_Conformal_Mapping_CVPR_2023_paper.html)
+| 2022 | ECCV | Rethinking Generic Camera Models for Deep Single Image Camera Calibration to Recover Rotation and Fisheye Distortion   <br> <sub><sup>*Nobuhiko Wakai, Satoshi Sato, Yasunori Ishii & Takayoshi Yamashita*</sup></sub> | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-19797-0_39)
+| 2022 | IJCV | Wide-Angle Image Rectification: A Survey    <br> <sub><sup>*Jinlong Fan, Jing Zhang, Stephen J. Maybank & Dacheng Tao*</sup></sub> | [Paper](https://link.springer.com/article/10.1007/s11263-021-01562-9)
+| 2022 | TCSVT | Revisiting Radial Distortion Rectification in Polar-Coordinates: A New and Efficient Learning Perspective   <br> <sub><sup>*Keyao Zhao; Chunyu Lin; Kang Liao; Shangrong Yang; Yao Zhao*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/9567670)
+| 2022 | RAL | Learning-Based Distortion Correction and Feature Detection for High Precision and Robust Camera Calibration   <br> <sub><sup>*Yesheng Zhang; Xu Zhao; Dahong Qian*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/9834080)
+| 2021 | ICCV | Towards Complete Scene and Regular Shape for Distortion Rectification by Curve-Aware Extrapolation  <br> <sub><sup>*Kang Liao, Chunyu Lin, Yunchao Wei, Feng Li, Shangrong Yang, Yao Zhao*</sup></sub> | [Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Liao_Towards_Complete_Scene_and_Regular_Shape_for_Distortion_Rectification_by_ICCV_2021_paper.html)
+| 2021 | ICCV | Multi-Level Curriculum for Training a Distortion-Aware Barrel Distortion Rectification Model  <br> <sub><sup>*Kang Liao, Chunyu Lin, Lixin Liao, Yao Zhao, Weiyao Lin*</sup></sub> | [Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Liao_Multi-Level_Curriculum_for_Training_a_Distortion-Aware_Barrel_Distortion_Rectification_Model_ICCV_2021_paper.html)
+| 2021 | CVPR | Progressively Complementary Network for Fisheye Image Rectification Using Appearance Flow  <br> <sub><sup>*Shangrong Yang, Chunyu Lin, Kang Liao, Chunjie Zhang, Yao Zhao*</sup></sub> | [Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Progressively_Complementary_Network_for_Fisheye_Image_Rectification_Using_Appearance_Flow_CVPR_2021_paper.html)/[Code](https://github.com/uof1745-cmd/PCN)
+| 2021 | TIP | A Deep Ordinal Distortion Estimation Approach for Distortion Rectification <br> <sub><sup>*Kang Liao; Chunyu Lin; Yao Zhao*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/9366359)
+| 2020 | ICASSP | Self-Supervised Deep Learning for Fisheye Image Rectification   <br> <sub><sup>*Chun-Hao Chao; Pin-Lun Hsu; Hung-Yi Lee; Yu-Chiang Frank Wang*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/9054191)
+| 2019 | CVPR | Learning Structure-And-Motion-Aware Rolling Shutter Correction	  <br> <sub><sup>*Bingbing Zhuang, Quoc-HuyTran, PanJi, Loong-Fah Cheong, Manmohan Chandraker*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhuang_Learning_Structure-And-Motion-Aware_Rolling_Shutter_Correction_CVPR_2019_paper.html)
+| 2019 | CVPR | Blind Geometric Distortion Correction on Images Through Deep Learning   <br> <sub><sup>*Xiaoyu Li, Bo Zhang, Pedro V. Sander, Jing Liao*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Blind_Geometric_Distortion_Correction_on_Images_Through_Deep_Learning_CVPR_2019_paper.html)/[Code](https://github.com/xiaoyu258/GeoProj)
+| 2019 | CVPR | Learning to calibrate straight lines for fisheye image rectification   <br> <sub><sup>*Xue, Zhucun and Xue, Nan and Xia, Gui-Song and Shen, Weiming*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Xue_Learning_to_Calibrate_Straight_Lines_for_Fisheye_Image_Rectification_CVPR_2019_paper.html)
+| 2018 | ECCV | Fisheyerecnet: A multi-context collaborative deep network for fisheye image rectification   <br> <sub><sup>*Yin, Xiaoqing and Wang, Xinchao and Yu, Jun and Zhang, Maojun and Fua, Pascal and Tao, Dacheng*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoqing_Yin_FishEyeRecNet_A_Multi-Context_ECCV_2018_paper.html)
+| 2016 | ACCV | Radial lens distortion correction using convolutional neural networks trained with synthesized images   <br> <sub><sup>*Rong, Jiangpeng and Huang, Shiyao and Shang, Zeyu and Ying, Xianghua*</sup></sub> | [Paper](https://link.springer.com/chapter/10.1007/978-3-319-54187-7_3)
+| 2015 | CVPR | Line-based multi-label energy optimization for fisheye image rectification and calibration  <br> <sub><sup>*Zhang, Mi and Yao, Jian and Xia, Menghan and Li, Kai and Zhang, Yi and Liu, Yaping*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Zhang_Line-Based_Multi-Label_Energy_2015_CVPR_paper.html)
+| 2015 | ISPRS JPRS | Generating 3D hyperspectral information with lightweight UAV snapshot cameras for vegetation monitoring: From camera calibration to quality assurance  <br> <sub><sup>*Aasen, Helge and Burkart, Andreas and Bolten, Andreas and Bareth, Georg*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271615001938)
+| 2013 | IROS | AprilCal: Assisted and repeatable camera calibration <br> <sub><sup>*Richardson, Andrew and Strom, Johannes and Olson, Edwin*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/6696595)
+| 2010 | PAMI | Equidistant fish-eye calibration and rectification by vanishing point extraction <br> <sub><sup>*Hughes, Ciaran and Denny, Patrick and Glavin, Martin and Jones, Edward*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/5557882)
+| 2008 | CVPR | On benchmarking camera calibration and multi-view stereo for high resolution imagery <br> <sub><sup>*Strecha, Christoph and Von Hansen, Wolfgang and Van Gool, Luc and Fua, Pascal and Thoennessen, Ulrich*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/4587706)
+| 2006 | PAMI | A generic camera model and calibration method for conventional, wide-angle, and fish-eye lenses  <br> <sub><sup>*Kannala, Juho and Brandt, Sami S*</sup></sub> | [Paper](https://ieeexplore.ieee.org/document/1642666)
+| 2000 | PAMI | A flexible new technique for camera calibration  <br> <sub><sup>*Zhang, Zhengyou*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/888718)
 
 
 
@@ -89,27 +120,60 @@ We hope this paper will provide remote-sensing researchers an overall picture of
 ### 3. Combined field of view
 
 
+58 - 65
+49，22
 
 
 ### 4. Low-altitude UAV image matching
 
+Multi-view image matching 
+66- 81
+29， 39
 
+
+Matching with non-UAV images
+83 - 87 
+67， 70
+
+
+88-92 
 
 ### 5. Low-altitude automatic aerial triangulation
+
+93-97
+20 
+
+structure from motion: 98-101 
+Image orientation: 102 - 106
+SfM for Rolling Shutter Cameras (RSC): 107 - 110 
 
 
 ### 6. Dense reconstruction
 
+15 
+28,69 111-114
+115-125
+
+
 
 ### 7. Image stitching
 
+126-130 
+Ortho-rectification based image stitching: 102 133 131
+Transformation based image stitching: 134 - 142, 132, 66, 143, 144
+
+
 
 ### 8. Multi-sensor data registration
+145-147
+Multi-band image registration: 148-152 
+ 
+Registration of LiDAR and optical images: 153-154
 
 
 ### 9. High-performance data processing
 
-
+102， 155-161
 
 
 ## Dataset and Tools 
