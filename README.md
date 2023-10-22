@@ -19,8 +19,7 @@ This repository contains a collection of research papers and resources for Mini-
      - [6. Dense Reconstruction](#6-Dense-reconstruction)
      - [7. Image Stitching](#7-Image-stitching)
      - [8. Multi-sensor Data Registration](#8-Multi-sensor-data-registration)
-     - [9. High-performance Data Processing](#9-High-performance-data-processing)
-- [Dataset and Tools](#Dataset-and-Tools) 
+- [Dataset & Tools](#Dataset-and-Tools) 
 - [Citation](#Citation)
 
 
@@ -76,10 +75,13 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 <sup><sub>*PERS: Photogrammetric Engineering and Remote Sensing; ISPRS JPRS: International Society for Photogrammetry and Remote Sensing Journal of Photogrammetry and Remote Sensing; RS: Remote Sensing; IJRS: International Journal of Remote Sensing; RSE: Remote Sensing of Environment; GISRS: GIScience & Remote Sensing; PHOR: The Photogrammetric Record; GRSM: IEEE Geoscience and Remote Sensing Magazine.</sub></sup>
 
 
+
+
 ### 2. Camera Calibration
 
 - [**Awesome-Deep-Camera-Calibration**](https://github.com/KangLiao929/Awesome-Deep-Camera-Calibration)
-- [awesome-image-rectification](https://github.com/bchao1/awesome-image-rectification/tree/master)
+- [Awesome-Image-Distortion-Correction](https://github.com/subeeshvasu/Awesome-Image-Distortion-Correction)
+- [Awesome-Image-Rectification](https://github.com/bchao1/awesome-image-rectification/tree/master)
 
 
 | **Year** | **Pub.** | **Title**          | **Links**        |
@@ -106,8 +108,9 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 | 2019 | CVPR | Learning to calibrate straight lines for fisheye image rectification   <br> <sub><sup>*Xue, Zhucun and Xue, Nan and Xia, Gui-Song and Shen, Weiming*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Xue_Learning_to_Calibrate_Straight_Lines_for_Fisheye_Image_Rectification_CVPR_2019_paper.html)
 | 2018 | ECCV | Fisheyerecnet: A multi-context collaborative deep network for fisheye image rectification   <br> <sub><sup>*Yin, Xiaoqing and Wang, Xinchao and Yu, Jun and Zhang, Maojun and Fua, Pascal and Tao, Dacheng*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Xiaoqing_Yin_FishEyeRecNet_A_Multi-Context_ECCV_2018_paper.html)
 | 2016 | ACCV | Radial lens distortion correction using convolutional neural networks trained with synthesized images   <br> <sub><sup>*Rong, Jiangpeng and Huang, Shiyao and Shang, Zeyu and Ying, Xianghua*</sup></sub> | [Paper](https://link.springer.com/chapter/10.1007/978-3-319-54187-7_3)
-| 2015 | CVPR | Line-based multi-label energy optimization for fisheye image rectification and calibration  <br> <sub><sup>*Zhang, Mi and Yao, Jian and Xia, Menghan and Li, Kai and Zhang, Yi and Liu, Yaping*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Zhang_Line-Based_Multi-Label_Energy_2015_CVPR_paper.html)
+| 2015 | CVPR | Line-based multi-label energy optimization for fisheye image rectification and calibration  <br> <sub><sup>*Zhang, Mi and Yao, Jian and Xia, Menghan and Li, Kai and Zhang, Yi and Liu, Yaping*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Zhang_Line-Based_Multi-Label_Energy_2015_CVPR_paper.html)/[Code](http://cvrs.whu.edu.cn/projects/FIRC/)
 | 2015 | ISPRS JPRS | Generating 3D hyperspectral information with lightweight UAV snapshot cameras for vegetation monitoring: From camera calibration to quality assurance  <br> <sub><sup>*Aasen, Helge and Burkart, Andreas and Bolten, Andreas and Bareth, Georg*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271615001938)
+| 2014 | IPOL | Automatic Lens Distortion Correction Using One-Parameter Division Models  <br> <sub><sup>*Miguel Alemán-Flores, Luis Alvarez, Luis Gomez, Daniel Santana-Cedrés*</sup></sub> | [Paper](https://www.ipol.im/pub/art/2014/106/)/[Code](https://www.ipol.im/pub/art/2014/106/)
 | 2013 | IROS | AprilCal: Assisted and repeatable camera calibration <br> <sub><sup>*Richardson, Andrew and Strom, Johannes and Olson, Edwin*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/6696595)
 | 2010 | PAMI | Equidistant fish-eye calibration and rectification by vanishing point extraction <br> <sub><sup>*Hughes, Ciaran and Denny, Patrick and Glavin, Martin and Jones, Edward*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/5557882)
 | 2008 | CVPR | On benchmarking camera calibration and multi-view stereo for high resolution imagery <br> <sub><sup>*Strecha, Christoph and Von Hansen, Wolfgang and Van Gool, Luc and Fua, Pascal and Thoennessen, Ulrich*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/4587706)
@@ -117,14 +120,21 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 
 
 
-
 ### 3. Combined field of view
-<!-- Optimal Area Coverage -->
+
+- Combined field of view to expand coverage
+- Aerial path planning for optimal area coverage
 
 | **Year** | **Pub.** | **Title**          | **Links**        |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
+| 2023 | JSTARS | A Review on Viewpoints and Path Planning for UAV-Based 3-D Reconstruction   <br> <sub><sup>*Mehdi Maboudi; MohammadReza Homaei; Soohwan Song; Shirin Malihi, et al*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/10124957)
 | 2022 | <sub><sup>Auton Robot</sup></sub> | Cooperative multi-UAV coverage mission planning platform for remote sensing applications  <br> <sub><sup>*Savvas D. Apostolidis, Pavlos Ch. Kapoutsis, Athanasios Ch. Kapoutsis & Elias B. Kosmatopoulos*</sup></sub> | [Paper](https://link.springer.com/article/10.1007/s10514-021-10028-3)/[Code](https://github.com/savvas-ap/mCPP-optimized-DARP)
+| 2021 | ToG | Continuous aerial path planning for 3D urban scene reconstruction  <br> <sub><sup>*Han Zhang, Yucong Yao, Ke Xie, Chi-Wing Fu, Hao Zhang, Hui Huang*</sup></sub> | [Paper](https://dl.acm.org/doi/abs/10.1145/3478513.3480483)
+| 2021 | TRO | View Path Planning via Online Multiview Stereo for 3-D Modeling of Large-Scale Structures  <br> <sub><sup>*Soohwan Song; Daekyum Kim; Sunghee Choi*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/9450826)
+| 2020 | ToG | Offsite aerial path planning for efficient urban scene reconstruction   <br> <sub><sup>*Xiaohui Zhou, Ke Xie, Kai Huang, Yilin Liu, Yang Zhou, Minglun Gong, Hui Huang*</sup></sub> | [Paper](https://dl.acm.org/doi/abs/10.1145/3414685.3417791)
+| 2018 | ToG | Aerial Path Planning for Urban Scene Reconstruction: A Continuous Optimization Method and Benchmark   <br> <sub><sup>*Neil Smith, Nils Moehrle, Michael Goesele, Wolfgang Heidrich*</sup></sub> | [Paper](https://dl.acm.org/doi/10.1145/3272127.3275010) 
 | 2018 | Sensors | Multi-camera imaging system for UAV photogrammetry   <br> <sub><sup>*Wierzbicki, Damian*</sup></sub> | [Paper](https://www.mdpi.com/1424-8220/18/8/2433)
+| 2018 | TSG | Multi-UAV Pre-Positioning and Routing for Power Network Damage Assessment  <br> <sub><sup>*Gino J. Lim; Seonjin Kim; Jaeyoung Cho; Yibin Gong; Amin Khodaei*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/7778146)
 | 2015 | Sensors | Multi-UAV Routing for Area Coverage and Remote Sensing with Minimum Time  <br> <sub><sup>*Gustavo S. C. Avellar, Guilherme A. S. Pereira, Luciano C. A. Pimenta and Paulo Iscold*</sup></sub> | [Paper](https://www.mdpi.com/1424-8220/15/11/27783)
 | 2013 | IJARS | A solution to cooperative area coverage surveillance for a swarm of MAVs  <br> <sub><sup>*Zheng-Jie, Wang and Wei, Li*</sup></sub> | [Paper](https://journals.sagepub.com/doi/full/10.5772/56801)
 | 2012 | ISPRSC | UAV borne low altitude photogrammetry system   <br> <sub><sup>*Z. Lin, G. Su, and F. Xie*</sup></sub> | [Paper](https://isprs-archives.copernicus.org/articles/XXXIX-B1/415/2012/)
@@ -143,7 +153,7 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 | **Year** | **Pub.** | **Title**          | **Links**        |
 | :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
 | 2022 | <sup><sub>ISPRS JPRS</sub></sup> | Leveraging vocabulary tree for simultaneous match pair selection and guided feature matching of UAV images   <br> <sub><sup>*San Jiang, Wanshou Jiang, Bingxuan Guo*</sup></sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271622000727)
-| 2022 | AAAI |  Guide Local Feature Matching by Overlap Estimation   <br> <sub><sup>*Ying Chen, Dihe Huang, et al.*</sup></sub> | [Paper](https://aaai-2022.virtualchair.net/poster_aaai7556)/[Code](https://github.com/AbyssGaze/OETR)
+| 2022 | AAAI |  Guide Local Feature Matching by Overlap Estimation   <br> <sub><sup>*Ying Chen, Dihe Huang, et al*</sup></sub> | [Paper](https://aaai-2022.virtualchair.net/poster_aaai7556)/[Code](https://github.com/AbyssGaze/OETR)
 | 2021 | IJCV | Image Matching from Handcrafted to Deep Features: A Survey  <br> <sub><sup>*Jiayi Ma, Xingyu Jiang, Aoxiang Fan, Junjun Jiang & Junchi Yan*</sup></sub> | [Paper](https://link.springer.com/article/10.1007/s11263-020-01359-2)
 | 2020 | IJCV | Image Matching across Wide Baselines: From Paper to Practice <br> <sub><sup>*Yuhe Jin and Dmytro Mishkin and Anastasiia Mishchuk and Jiri Matas and Pascal Fua and Kwang Moo Yi and Eduard Trulls*</sup></sub> | [Paper](https://link.springer.com/article/10.1007/s11263-020-01385-0)/[Code](https://github.com/ubc-vision/image-matching-benchmark)
 | 2019 | <sup><sub>ISPRS JPRS</sub></sup> | LAM: Locality affine-invariant feature matching  <br> <sub><sup>*Jiayuan Li, Qingwu Hu, Mingyao Ai*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271619301285)
@@ -183,6 +193,7 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 
 
 
+
 ### 5. Low-altitude automatic aerial triangulation
 
 :small_orange_diamond: **Structure from motion** 
@@ -193,9 +204,13 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 | 2020 | <sup><sub>ISPRS JPRS</sub></sup> | Efficient structure from motion for large-scale UAV images: A review and a comparison of SfM tools  <br> <sub><sup>*San Jiang, Cheng Jiang, Wanshou Jiang*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271620301131)
 | 2019 | CFR | Structure from Motion Photogrammetry in Forestry: a Review     <br> <sub><sup>*Jakob Iglhaut, Carlos Cabo, Stefano Puliti, Livia Piermattei, James O’Connor & Jacqueline Rosette*</sup></sub>  | [Paper](https://link.springer.com/article/10.1007/s40725-019-00094-3)
 | 2017 | ICCV | Parallel Structure from Motion from Local Increment to Global Averaging   <br> <sub><sup>*Siyu Zhu, Tianwei Shen, Lei Zhou, Runze Zhang, Jinglu Wang, Tian Fang, Long Quan*</sup></sub> | [Paper](https://arxiv.org/abs/1702.08601)
+| 2017 | ICCV | Distributed Very Large Scale Bundle Adjustment by Global Camera Consensus  <br> <sub><sup>*Runze Zhang, Siyu Zhu, Tian Fang, Long Quan*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Zhang_Distributed_Very_Large_ICCV_2017_paper.html)
 | 2017 | CVPR | HSfM: Hybrid Structure-from-Motion   <br> <sub><sup>*Hainan Cui, Xiang Gao, Shuhan Shen, Zhanyi Hu*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Cui_HSfM_Hybrid_Structure-from-Motion_CVPR_2017_paper.html)/[Code](https://github.com/sweeneychris/TheiaSfM/blob/master/src/theia/sfm/hybrid_reconstruction_estimator.h)
+| 2017 | CVPR | Unsupervised learning of depth and ego-motion from video     <br> <sub><sup>*Tinghui Zhou, Matthew Brown, Noah Snavely, David G. Lowe*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Zhou_Unsupervised_Learning_of_CVPR_2017_paper.html)/[Code](https://github.com/ClementPinard/SfmLearner-Pytorch)
 | 2017 | ActaNum |  A survey of structure from motion  <br> <sub><sup>*Onur Özyeşil, Vladislav Voroninski, Ronen Basri and Amit Singer*</sup></sub> | [Paper](https://www.cambridge.org/core/journals/acta-numerica/article/abs/survey-of-structure-from-motion/C4B2E7BB10BC2C11AF71BC80B584D378)
 | 2016 | CVPR | Structure-from-Motion Revisited  <br> <sub><sup>*Schonberger, Johannes Lutz and Frahm, Jan-Michael*</sup></sub> | [Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.html)/[Code](https://github.com/colmap/colmap)
+| 2015 | ICCV | PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization   <br> <sub><sup>*Alex Kendall, Matthew Grimes, Roberto Cipolla*</sup></sub> | [Paper](https://openaccess.thecvf.com/content_iccv_2015/html/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.html)/[Code](https://github.com/alexgkendall/caffe-posenet)
+| 2014 | ECCV | Robust global translations with 1DSFM     <br> <sub><sup>*Kyle Wilson & Noah Snavely*</sup></sub> | [Paper](https://link.springer.com/chapter/10.1007/978-3-319-10578-9_5)/[Code](https://github.com/wilsonkl/SfM_Init)
 | 2012 | CVPR | Semantic structure from motion with points, regions, and objects   <br> <sub><sup>*Sid Yingze Bao; Mohit Bagra; Yu-Wei Chao; Silvio Savarese*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/6247992)
 | 2012 | Geom | ‘Structure-from-Motion’ photogrammetry: A low-cost, effective tool for geoscience applications  <br> <sub><sup>*M.J. Westoby, J. Brasington, N.F. Glasser, M.J. Hambrey, J.M. Reynolds*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/pii/S0169555X12004217)
 | 2011 | PhotoRec | Photogrammetric processing of low-altitude images acquired by unpiloted aerial vehicles  <br> <sub><sup>*Yongjun Zhang, Jinxin Xiong, Lijuan Hao*</sup></sub> | [Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1477-9730.2011.00641.x)
@@ -225,14 +240,19 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 :small_orange_diamond: **SfM Toolkit** 
 
 | **Name** | **Year** | **Pub**          | 
-| :------: | :------: | :----------------------------------------------------------- |  
+| :------ | :------: | :----------------------------------------------------------- |  
 | [OpenSfM](https://github.com/mapillary/OpenSfM) |  | [Homepage](www.opensfm.org/)
 | [ColMap](https://github.com/colmap/colmap) | 2016 | [CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.html)
 | [OpenMVG](https://github.com/openMVG/openMVG) | 2016 | 
 | [TheiaSfM](https://github.com/sweeneychris/TheiaSfM) | 2015 | 
+| [MVE](https://github.com/simonfuhrmann/mve) | 2014 | [Proceedings](https://diglib.eg.org/handle/10.2312/gch.20141299.011-018)
+| [VisualSFM](http://ccwu.me/vsfm/index.html) | 2011 |
 | [Bundler](https://github.com/snavely/bundler_sfm) | 2006 | 
+| [Ceres Solver](https://github.com/ceres-solver/ceres-solver) | 2023 | [Doc](http://ceres-solver.org/)
+| [Regard3D](https://www.regard3d.org/index.php) | 2019 | 
   
   
+
 
 ### 6. Dense reconstruction
 
@@ -283,39 +303,151 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 :small_orange_diamond: **MVS Toolkit** 
 
 | **Name** | **Year** | **Pub**          | 
-| :------: | :------: | :----------------------------------------------------------- |  
+| :------ | :------: | :----------------------------------------------------------- |  
 | [Meshroom](https://github.com/alicevision/meshroom) | 2021 | [MMSys](https://dl.acm.org/doi/10.1145/3458305.3478443)
 | [Colmap](https://github.com/colmap/colmap) | 2016 | [CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.html)
-| [MVE](https://github.com/simonfuhrmann/mve) | 2014 | [Paper](http://www.simonfuhrmann.de/papers/gch2014-mve.pdf)
+| [MicMac](https://github.com/micmacIGN/micmac) | -- | 
+| [MVE](https://github.com/simonfuhrmann/mve) | 2014 | [Paper](https://diglib.eg.org/handle/10.2312/gch.20141299.011-018)
 | [MVS-Texturing](https://github.com/nmoehrle/mvs-texturing) | 2014 | [ECCV](https://link.springer.com/chapter/10.1007/978-3-319-10602-1_54) 
-| [CMVS-PMVS](https://github.com/pmoulon/CMVS-PMVS) | 2010 | [Homepage](https://www.di.ens.fr/cmvs/)
+| [CMVS-PMVS](https://github.com/pmoulon/CMVS-PMVS) | 2010 | [PAMI](https://ieeexplore.ieee.org/abstract/document/5226635)/[Homepage](https://www.di.ens.fr/cmvs/)
+| [S2P - Satellite Stereo Pipeline](https://github.com/centreborelli/s2p) | 2014 | 
+| [SAT-PP](http://www.4dixplorer.com/software_satpp.html) | | 
+| [Danesfield](https://github.com/Kitware/Danesfield) | 2019 | [CVPRW](https://openaccess.thecvf.com/content_CVPRW_2019/html/EarthVision/Leotta_Urban_Semantic_3D_Reconstruction_From_Multiview_Satellite_Imagery_CVPRW_2019_paper.html)
 
 
 
 ### 7. Image stitching
 
-126-130 
-Ortho-rectification based image stitching: 102 133 131
-Transformation based image stitching: 134 - 142, 132, 66, 143, 144
+- [Awesome-Computational-Photography](https://github.com/visionxiang/awesome-computational-photography#Image-Stitching)
+
+
+| **Year** | **Pub.** | **Title**          | **Links**        |
+| :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- | 
+| 2022 | GRSL | Efficient Seamline Network Generation for Large-Scale Orthoimage Mosaicking  <br> <sub><sup>*Junxing Yang; Lulu Liu; Qingsong Yan; Fei Deng*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/9754551)
+| 2021 | TGRS | Superpixel-Based Seamless Image Stitching for UAV Images   <br> <sub><sup>*Yiting Yuan; Faming Fang; Guixu Zhang*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/9115682)
+| 2021 | JSTARS | An Efficient Method for Generating UAV-Based Hyperspectral Mosaics Using Push-Broom Sensors  <br> <sub><sup>*Juan M. Jurado; Luís Pádua; Jonas Hruška; Francisco R. Feito; et al*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/9454354)
+| 2020 | <sup><sub>ISPRS JPRS</sub></sup> | Jointly optimizing global and local color consistency for multiple image mosaicking   <br> <sub><sup>*Li Li, Menghan Xi, Chi Liu, Liang Li, Hanyun Wang, Jian Yao*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271620302781)
+| 2020 | JSTARS | UAV Image Mosaicking Based on Multiregion Guided Local Projection Deformation  <br> <sub><sup>*Quan Xu; Jun Chen; Linbo Luo; Wenping Gong; Yong Wang*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/9130864)
+| 2019 | GRSM | Remote Sensing Image Mosaicking: Achievements and Challenges  <br> <sub><sup>*Xinghua Li; Ruitao Feng; Xiaobin Guan; Huanfeng Shen; Liangpei Zhang*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/8937068)
+|   2018   |   ECCV   | Object-centered image stitching     <br> <sub><sup>*Charles Herrmann, Ramin Zabih, et al*</sup><sub>  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Charles_Herrmann_Object-centered_image_stitching_ECCV_2018_paper.pdf)/Code      |
+|   2018   |   ECCV   | Robust image stitching with multiple registrations    <br> <sub><sup>*Herrmann, Charles, Zabih, Ramin, et al*</sup><sub>  | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Charles_Herrmann_Robust_image_stitching_ECCV_2018_paper.pdf)/Code   |
+|   2018   |   TIP    | Dynamic Video Stitching via Shakiness Removing               <br> <sub><sup>*Yongwei Nie, et al*</sup><sub>               | [Paper](https://ieeexplore.ieee.org/document/8003352)/[Code](https://github.com/SuTanTank/VideoStitchingViaShakinessRemoving) |
+| 2018 | RAL | Unsupervised Deep Homography: A Fast and Robust Homography Estimation Model   <br> <sub><sup>*Ty Nguyen; Steven W. Chen; Shreyas S. Shivakumar; Camillo Jose Taylor; Vijay Kumar*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/8302515)/[Code](https://github.com/tynguyen/unsupervisedDeepHomographyRAL2018)
+| 2018 | PR | Image stitching by line-guided local warping with global similarity constraint   <br> <sub><sup>*Tian-Zhu Xiang, Gui-Song Xia, Xiang Bai, Liangpei Zhang*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320318302231)
+| 2018 | TMM | Parallax-Tolerant Image Stitching Based on Robust Elastic Warping   <br> <sub><sup>*Jing Li; Zhengming Wang; Shiming Lai; Yongping Zhai; Maojun Zhang*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/8119833)/[Code](https://github.com/gain2217/Robust_Elastic_Warping)
+|   2018   |   TMM    | Quasi-Homography Warps in Image Stitching    <br> <sub><sup>*Nan Li, Yifang Xu, Chao Wang*</sup><sub>   |  [Paper](https://ieeexplore.ieee.org/document/8101022)/Code   |
+| 2018 | IJRS | Mosaicking UAV orthoimages using bounded Voronoi diagrams and watersheds   <br> <sub><sup>*Mengxiao Song, Zheng Ji, Shan Huang &Jing Fu*</sup></sub> | [Paper](https://www.tandfonline.com/doi/abs/10.1080/01431161.2017.1350309)
+| 2018 | IJRS | Seam-line determination via minimal connected area searching and minimum spanning tree for UAV image mosaicking <br> <sub><sup>*Yumin Tian,Aifeng Sun &Di Wang*</sup></sub> | [Paper](https://www.tandfonline.com/doi/abs/10.1080/01431161.2017.1420939)
+| 2017 |  CVPR  | Direct Photometric Alignment by Mesh Deformation             <br> <sub><sup>*Kaimo Lin, Shuaicheng Liu, et al*</sup><sub>   | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_Direct_Photometric_Alignment_CVPR_2017_paper.pdf)/[Code](https://github.com/lxlscut/optical2.0)  |
+| 2017 | PR | Globally consistent alignment for planar mosaicking via topology analysis  <br> <sub><sup>*Menghan Xia, Jian Yao, Renping Xie, Li Li, Wei Zhang*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320317300201)
+| 2017 | AutCon | UAV-based automatic generation of high-resolution panorama at a construction site with a focus on preprocessing for image stitching   <br> <sub><sup>*Seongdeok Bang, Hongjo Kim, Hyoungkwan Kim*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0926580517301929)
+| 2016 | ECCV | Natural Image Stitching with the Global Similarity Prior  <br> <sub><sup>*Yu-Sheng Chen & Yung-Yu Chuang*</sup></sub> | [Paper](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_12)/[Code](https://github.com/nothinglo/NISwGSP)
+| 2016 | ECCV | SEAGULL: Seam-Guided Local Alignment for Parallax-Tolerant Image Stitching   <br> <sub><sup>*Kaimo Lin, Nianjuan Jiang, Loong-Fah Cheong, Minh Do & Jiangbo Lu*</sup></sub> | [Paper](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_23)
+| 2016 | TIP | Multi-viewpoint panorama construction with wide-baseline images   <br> <sub><sup>*Guofeng Zhang; Yi He; Weifeng Chen; Jiaya Jia; Hujun Bao*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/7420659)
+| 2016 | RS | Mosaicking of Unmanned Aerial Vehicle Imagery in the Absence of Camera Poses   <br> <sub><sup>*Yuhua Xu, Jianliang Ou, Hu He, Xiaohu Zhang and Jon Mills*</sup></sub> | [Paper](https://www.mdpi.com/2072-4292/8/3/204)/[Code](https://github.com/YuhuaXu/ImageMosaicing)
+| 2016 |   RSS-W   |  Deep Image Homography Estimation   <br> <sub><sup>*Daniel DeTone, et al*</sup><sub>  | [Paper](https://arxiv.org/abs/1606.03798)/[Code](https://github.com/mazenmel/Deep-homography-estimation-Pytorch)
+| 2016 | JARS | Computer vision-based orthorectification and georeferencing of aerial image sets   <br> <sub><sup>*Mohammad Reza Faraji, Xiaojun Qi, Austin Jensen*</sup></sub> | [Paper](https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-10/issue-3/036027/Computer-visionbased-orthorectification-and-georeferencing-of-aerial-image-sets/10.1117/1.JRS.10.036027.short?SSO=1)
+| 2016 | Sensors | An Efficient Seam Elimination Method for UAV Images Based on Wallis Dodging and Gaussian Distance Weight Enhancement   <br> <sub><sup>*Jinyan Tian, Xiaojuan Li, Fuzhou Duan, Junqian Wang and Yang Ou*</sup></sub> | [Paper](https://www.mdpi.com/1424-8220/16/5/662)
+| 2016 | ICPR | Locally warping-based image stitching by imposing line constraints  <br> <sub><sup>*T.-Z. Xiang, G.-S. Xia, L. Zhang, and N. Huang*</sup></sub> | [Paper](https://ieeexplore.ieee.org/abstract/document/7900289)
+|   2015   |   ICCV   |  Dual-Feature Warping-Based Motion Model Estimation  <br> <sub><sup>*Shiwei Li, Lu Yuan, Jian Sun, Long Quan*</sup><sub> | [Paper](https://openaccess.thecvf.com/content_iccv_2015/html/Li_Dual-Feature_Warping-Based_Motion_ICCV_2015_paper.html)/Code
+|   2015   |   CVPR   | Adaptive As-Natural-As-Possible Image Stitching  <br> <sub><sup>*Chung-Ching Lin, S. U. Pankanti, K. N. Ramamurthy, and Aleksandr Y. Aravkin*</sup><sub> | [Paper](https://openaccess.thecvf.com/content_cvpr_2015/papers/Lin_Adaptive_As-Natural-As-Possible_Image_2015_CVPR_paper.pdf)/[Code](https://github.com/YaqiLYU/AANAP)
+| 2015 | <sup><sub>ISPRS JPRS</sub></sup> | A robust mosaicking procedure for high spatial resolution remote sensing images     <br> <sub><sup>*Xinghua Li, Nian Hui, Huanfeng Shen, Yunjie Fu, Liangpei Zhang*</sup></sub> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271615002191)
+| 2015 | CluCom | A review of parallel computing for large-scale remote sensing image mosaicking   <br> <sub><sup>*Lajiao Chen, Yan Ma, Peng Liu, Jingbo Wei, Wei Jie & Jijun He*</sup><sub> | [Paper](https://link.springer.com/article/10.1007/s10586-015-0422-3)
+| 2014 |   CVPR   |  Shape-preserving half-projective warps for image stitching <br> <sub><sup>*Che-Han Chang, Yoichi Sato, Yung-Yu Chuang*</sup><sub> | [Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Chang_Shape-Preserving_Half-Projective_Warps_2014_CVPR_paper.html)/Code
+| 2014 |   CVPR  |  Parallax-tolerant Image Stitching  <br> <sub><sup>*Fan Zhang and Feng Liu*</sup><sub>  | [Paper](https://openaccess.thecvf.com/content_cvpr_2014/papers/Zhang_Parallax-tolerant_Image_Stitching_2014_CVPR_paper.pdf)
+| 2014 | PAMI | As-Projective-As-Possible Image Stitching with Moving DLT  <br> <sub><sup>*Julio Zaragoza; Tat-Jun Chin; Quoc-Huy Tran; Michael S. Brown; David Suter*</sup></sub> | [Paper](https://ieeexplore.ieee.org/document/6682890)/[Code](https://cs.adelaide.edu.au/~tjchin/apap/)/<br>[Code](https://github.com/EadCat/APAP-Image-Stitching)
+|   2013   |  EG | Seam-Driven Image Stitching   <br> <sub><sup>*Junhong Gao, Yu Li, Tat-Jun Chin, Michael S. Brown*</sup><sub>  |  [Paper](https://yu-li.github.io/paper/eg13_stitching.pdf)/Code
+|   2011   | CVPR  | Smoothly varying affine stitching   <br> <sub><sup>*Wen-Yan Lin, Siying Liu, Y Matsushita, Tian-Tsong Ng, Loong-Fah Cheong*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/document/5995314)/[Code](https://sites.google.com/site/laoszefei81/home/code-1/code-for-smoothly-varying-affine-stitching)
+|   2011   | CVPR | Constructing image panoramas using dual-homography warping <br> <sub><sup>*Junhong Gao, Seon Joo Kim, Michael S. Brown*</sup><sub>   | [Paper](https://ieeexplore.ieee.org/document/5995433)/Code
+|   2007  |  IJCV | Automatic panoramic image stitching using invariant features <br> <sub><sup>*Matthew Brown and David G. Lowe*</sup><sub>  | [Paper](http://matthewalunbrown.com/papers/ijcv2007.pdf)/[Demo](http://matthewalunbrown.com/autostitch/autostitch.html)
+| 2007 | CGV | Image Alignment and Stitching: A Tutorial  <br> <sub><sup>*Rick Szeliski*</sup></sub> | [Paper](https://www.nowpublishers.com/article/Details/CGV-009)
+
+
+
+:small_orange_diamond: **Stitching Toolkit** 
+ 
+- [Image composition editor (ICE)](https://www.microsoft.com/en-us/research/project/image-composite-editor/)
+- [Autostitch](http://matthewalunbrown.com/autostitch/autostitch.html)
 
 
 
 ### 8. Multi-sensor data registration
-145-147
-Multi-band image registration: 148-152 
- 
-Registration of LiDAR and optical images: 153-154
 
 
-### 9. High-performance data processing
-
-102， 155-161
+:small_orange_diamond: **Multi-band image registration** 
 
 
-## Dataset and Tools 
+| **Year** | **Pub.** | **Title**          | **Links**        |
+| :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- | 
+| 2024 | InfFus | POS-GIFT: A Geometric and Intensity-Invariant Feature Transformation for Multimodal Images   <br> <sub><sup>*Zhuolu Hou, Yuxuan Liu, Li Zhang*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1566253523003433)/[Code](https://github.com/Zhuolu-Hou/POS-GIFT)
+| 2023 | <sup><sub>ISPRS JPRS</sub></sup> | Multimodal image matching: A scale-invariant algorithm and an open dataset  <br> <sub><sup>*Jiayuan Li, Qingwu Hu, Yongjun Zhang*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271623002277)/[Code](https://github.com/LJY-RS/SRIF/tree/master)
+| 2023 | InfFus | Shape-Former: Bridging CNN and Transformer via ShapeConv for multimodal image matching   <br> <sub><sup>*Jiaxuan Chen, Xiaoxian Chen, Shuang Chen, Yuyan Liu, et al*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1566253522002068)
+| 2023 | JMASS | Advances and Challenges in Multimodal Remote Sensing Image Registration   <br> <sub><sup>*Bai Zhu; Liang Zhou; Simiao Pu; Jianwei Fan; Yuanxin Ye*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/abstract/document/10044278)
+| 2022 | <sup><sub>ISPRS JPRS</sub></sup> | A robust multimodal remote sensing image registration method and system using steerable filters with first- and second-order gradients   <br> <sub><sup>*Yuanxin Ye, Bai Zhu, Tengfeng Tang, Chao Yang, Qizhi Xu, Guo Zhang*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271622001083)/[Code](https://github.com/yeyuanxin110/SFOC-Multimodal_Remote_Sensing_Image_Registration_System)
+| 2022 | <sup><sub>ISPRS JPRS</sub></sup> | A robust registration method for UAV thermal infrared and visible images taken by dual-cameras  <br> <sub><sup>*Lingxuan Meng, Ji Zhou, Shaomin Liu, Ziwei Wang, et al*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271622002271)/[Code](https://github.com/mlxljz/TWMM)
+| 2022 | TGRS | A Multiscale Framework With Unsupervised Learning for Remote Sensing Image Registration  <br> <sub><sup>*Yuanxin Ye; Tengfeng Tang; Bai Zhu; Chao Yang; Bo Li; et al*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/abstract/document/9758703)/[Code](https://github.com/yeyuanxin110/MU-Net/tree/main)
+| 2022 | TGRS | LNIFT: Locally Normalized Image for Rotation Invariant Multimodal Feature Matching   <br> <sub><sup>*Jiayuan Li; Wangyi Xu; Pengcheng Shi; Yongjun Zhang; Qingwu Hu*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/abstract/document/9751712)/[Code](https://github.com/LJY-RS/LNIFT_matlab)
+| 2021 | JSTARS | Self-Similarity Features for Multimodal Remote Sensing Image Matching   <br> <sub><sup>*Xin Xiong; Guowang Jin; Qing Xu; Hongmin Zhang*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/abstract/document/9629297)
+| 2021 | GRSM | Advances and Opportunities in Remote Sensing Image Geometric Registration: A systematic review of state-of-the-art approaches and future research directions   <br> <sub><sup>*Ruitao Feng; Huanfeng Shen; Jianjun Bai; Xinghua Li*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/abstract/document/9468875)
+| 2021 | RS | Multimodal Remote Sensing Image Registration Methods and Advancements: A Survey   <br> <sub><sup>*Xinyue Zhang, Chengcai Leng, Yameng Hong, Zhao Pei, Irene Cheng and Anup Basu*</sup><sub>  | [Paper](https://www.mdpi.com/2072-4292/13/24/5128)
+| 2021 | IJRS | A comprehensive review on remote sensing image registration     <br> <sub><sup>*Sourabh Paul &Umesh C. Pati*</sup><sub>  | [Paper](https://www.tandfonline.com/doi/abs/10.1080/01431161.2021.1906985)
+| 2021 | InfFus | A review of multimodal image matching: Methods and applications  <br> <sub><sup>*Xingyu Jiang, Jiayi Ma, Guobao Xiao, Zhenfeng Shao, Xiaojie Guo*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S156625352100035X)
+| 2019 | TIP | RIFT: Multi-Modal Image Matching Based on Radiation-Variation Insensitive Feature Transform   <br> <sub><sup>*Jiayuan Li; Qingwu Hu; Mingyao Ai*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/abstract/document/8935498)/[Code](https://github.com/LJY-RS/RIFT-multimodal-image-matching)
+| 2019 | <sup><sub>ISPRS JPRS</sub></sup> | Robust registration for remote sensing images by combining and localizing feature- and area-based methods  <br> <sub><sup>*Ruitao Feng, Qingyun Du, Xinghua Li, Huanfeng Shen*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271619300632)
+| 2019 | TGRS | Fast and Robust Matching for Multimodal Remote Sensing Image Registration  <br> <sub><sup>*Yuanxin Ye; Lorenzo Bruzzone; Jie Shan; Francesca Bovolo, Qing Zhu*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/abstract/document/8766118)/[Code](https://github.com/yeyuanxin110/CFOG)
+| 2019 | JSTARS | Registration of Multimodal Remote Sensing Image Based on Deep Fully Convolutional Neural Network  <br> <sub><sup>*Han Zhang; Weiping Ni; Weidong Yan; Deliang Xiang, et al*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/abstract/document/8730416)
+| 2019 | PRL | Robust visible infrared image matching by exploiting dominant edge orientations   <br> <sub><sup>*H. Chen, N. Xue, Y. Zhang, Q. Lu, and G.-S. Xia*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0167865518308651)
+| 2018 | TGRS | Robust registration of multimodal remote sensing images based on structural similarity   <br> <sub><sup>*Yuanxin Ye; Jie Shan; Lorenzo Bruzzone; Li Shen*</sup><sub>  | [Paper](https://ieeexplore.ieee.org/abstract/document/7862734)/[Code](https://github.com/yeyuanxin110/HOPC)
+| 2015 | <sup><sub>ISPRS JPRS</sub></sup> | A fast and mobile system for registration of low-altitude visual and thermal aerial images using multiple small-scale UAVs  <br> <sub><sup>*S. Yahyanejad and B. Rinner*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271614001993)
+| 2013 | PRL | Visible and infrared image registration in man-made environments employing hybrid visual features  <br> <sub><sup>*Jungong Han, Eric J. Pauwels, Paul de Zeeuw*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0167865512001043)
+| 2008 | PR | Multi-sensor image registration based on intensity and edge orientation information  <br> <sub><sup>*Yong Sun Kim, Jae Hak Lee, Jong Beom Ra*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320308001684)
 
 
 
+:small_orange_diamond: **Registration of LiDAR and optical images**
+
+| **Year** | **Pub.** | **Title**          | **Links**        |
+| :------: | :------: | :----------------------------------------------------------- |  :----------------------------------------------------------- |
+| 2021 | <sup><sub>ISPRS JPRS</sub></sup> | Robust registration of aerial images and LiDAR data using spatial constraints and Gabor structural features  <br> <sub><sup>*Bai Zhu, Yuanxin Ye, Liang Zhou, Zhilin Li, Gaofei Yin*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271621002422)
+| 2019 | <sup><sub>ISPRS JPRS</sub></sup> | NRLI-UAV: Non-rigid registration of sequential raw laser scans and images for low-cost UAV LiDAR point cloud quality improvement    <br> <sub><sup>*Jianping Li, Bisheng Yang, Chi Chen, Ayman Habib*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271619302473)
+| 2019 | <sup><sub>ISPRS JPRS</sub></sup> | Marker-free coregistration of UAV and backpack LiDAR point clouds in forested areas    <br> <sub><sup>*Przemyslaw Polewski a, Wei Yao a, Lin Cao b, Sha Gao*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S092427161830323X)
+| 2016 | RS | A linear feature-based approach for the registration of unmanned aerial vehicle remotely-sensed images and airborne LiDAR data  <br> <sub><sup>*S. Liu, X. Tong, J. Chen, X. Liu, W. Sun, H. Xie, P. Chen, Y. Jin, and Z. Ye*</sup><sub>  | [Paper](https://www.mdpi.com/2072-4292/8/2/82)
+| 2015 | <sup><sub>ISPRS JPRS</sub></sup>  | Automatic registration of UAV-borne sequent images and LiDAR data  <br> <sub><sup>*Bisheng Yang and Chi Chen*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271615000180)
+| 2015 | <sup><sub>ISPRS JPRS</sub></sup>  | Automatic registration of optical aerial imagery to a LiDAR point cloud for generation of city models  <br> <sub><sup>*Bernard O. Abayowa, Alper Yilmaz, Russell C. Hardie*</sup><sub>  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271615001434)
+
+
+
+## Dataset & Tools 
+
+:small_orange_diamond: **Tools** 
+
+- [awesome-photogrammetry-projects](https://github.com/awesome-photogrammetry/awesome-photogrammetry)
+
+
+| **Name** | **Year** |  **Links** | **Comments** | 
+| :------ | :------: | :----------------------- | :----------------------- |
+| [OpenDroneMap](https://www.opendronemap.org/) | -- | [Github](https://github.com/OpenDroneMap/ODM) | <sub><sup>An open source command line toolkit for processing aerial drone imagery to generate maps, point clouds, 3D models and DEMs</sup></sub>
+| [VisWebDrone](https://github.com/Nathalieguimaraes/VisWebDrone) | 2020 | [IJGI](https://www.mdpi.com/2220-9964/9/11/679) | <sub><sup>A web application for photogrammetric processing</sup></sub>
+| [TeleSculptor](https://github.com/Kitware/TeleSculptor) | -- | -- |  <sub><sup>A cross-platform desktop application for aerial photogrammetry</sup></sub>
+| [CloudCompare](https://www.cloudcompare.org/) | -- | -- | <sub><sup>3D point cloud and mesh processing software</sup></sub>
+
+
+
+:small_orange_diamond: **Dataset** 
+
+| **Name** | **Year** | **Comments** | 
+| :------ | :------: | :----------------------- |
+| [Urban Drone Dataset (UDD)](https://github.com/MarcWong/SemanticSfM/tree/master/dataset) | 2018 | <sub><sup>Structure from Motion of Aerial Images ([PRCV](https://link.springer.com/chapter/10.1007/978-3-030-03398-9_30))</sup></sub>
+| [UAV image mosaicking dataset](https://github.com/YuhuaXu/UAV-image-mosaicing-dataset) | 2016 | <sub><sup>Dataset for Unmanned Aerial Vehicle (UAV) Image Mosaicking ([RS](https://www.mdpi.com/2072-4292/8/3/204))</sup></sub>
+| [ISPRS/EuroSDR Benchmark for Multi-Platform Photogrammetry](https://www2.isprs.org/commissions/comm2/icwg-2-1a/benchmark_main/) | 2015 | <sub><sup>For dense Image Matching and Image Orientation</sup></sub>
+| [Benchmark on High Density Aerial Image Matching](https://ifpwww.ifp.uni-stuttgart.de/ISPRS-EuroSDR/ImageMatching/default.aspx) | 2015 | <sub><sup>For dense image matching</sup></sub>
+| [SUIRD](https://github.com/yyangynu/SUIRD) | -- | <sub><sup>Small UAV Image Registration Dataset (SUIRD)</sup></sub> 
+| :triangular_flag_on_post: Semantic |  |  |
+| [UAVid](https://uavid.nl/) | 2020 | <sub><sup>Semantic segmentation dataset for UAV imagery</sup></sub>
+| [UAV-ROD](https://github.com/fengkaibit/UAV-ROD) | -- | <sub><sup>Car detection dataset for UAV imagery</sup></sub> 
+| [UAV-Human](https://github.com/sutdcv/UAV-Human) | 2021 | <sub><sup>Human Behavior Understanding with UAVs ([CVPR](https://arxiv.org/abs/2104.00946))</sup></sub> 
+| [VisDrone](https://github.com/VisDrone/VisDrone-Dataset) | 2021 | <sub><sup>Object detection and tracking from UAV data ([PAMI](https://arxiv.org/abs/2001.06303))</sup></sub> 
+| [HIT-UAV](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset) | 2023 | <sub><sup>A high-altitude UAV-based infrared thermal dataset for object detection ([Paper](https://www.nature.com/articles/s41597-023-02066-6)/[Homepage](https://pegasus.ac.cn/))</sup></sub> 
 
 
 
