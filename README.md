@@ -19,7 +19,7 @@ This repository contains a collection of research papers and resources for Mini-
      - [6. Dense Reconstruction](#6-Dense-reconstruction)
      - [7. Image Stitching](#7-Image-stitching)
      - [8. Multi-sensor Data Registration](#8-Multi-sensor-data-registration)
-- [Dataset & Tools](#Dataset-&-Tools) 
+- [Dataset & Tools](#Dataset-and-Tools) 
 - [Citation](#Citation)
 
 
@@ -417,7 +417,7 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 
 
 
-## Dataset & Tools 
+## Dataset and Tools 
 
 :small_orange_diamond: **Tools** 
 
@@ -443,11 +443,18 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 | [Benchmark on High Density Aerial Image Matching](https://ifpwww.ifp.uni-stuttgart.de/ISPRS-EuroSDR/ImageMatching/default.aspx) | 2015 | <sub><sup>For dense image matching</sup></sub>
 | [SUIRD](https://github.com/yyangynu/SUIRD) | -- | <sub><sup>Small UAV Image Registration Dataset (SUIRD)</sup></sub> 
 | :triangular_flag_on_post: Semantic |  |  |
-| [UAVid](https://uavid.nl/) | 2020 | <sub><sup>Semantic segmentation dataset for UAV imagery</sup></sub>
-| [UAV-ROD](https://github.com/fengkaibit/UAV-ROD) | -- | <sub><sup>Car detection dataset for UAV imagery</sup></sub> 
-| [UAV-Human](https://github.com/sutdcv/UAV-Human) | 2021 | <sub><sup>Human Behavior Understanding with UAVs ([CVPR](https://arxiv.org/abs/2104.00946))</sup></sub> 
-| [VisDrone](https://github.com/VisDrone/VisDrone-Dataset) | 2021 | <sub><sup>Object detection and tracking from UAV data ([PAMI](https://arxiv.org/abs/2001.06303))</sup></sub> 
 | [HIT-UAV](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset) | 2023 | <sub><sup>A high-altitude UAV-based infrared thermal dataset for object detection ([Paper](https://www.nature.com/articles/s41597-023-02066-6)/[Homepage](https://pegasus.ac.cn/))</sup></sub> 
+| [UAV-ROD](https://github.com/fengkaibit/UAV-ROD) | 2022 | <sub><sup>Car detection (rotating object detection) dataset for UAV imagery ([NeuroCom](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007676))</sup></sub> 
+| [VisDrone](https://github.com/VisDrone/VisDrone-Dataset) | 2021 | <sub><sup>Object detection and tracking from UAV data ([PAMI](https://arxiv.org/abs/2001.06303))</sup></sub> 
+| [UAV-Human](https://github.com/sutdcv/UAV-Human) | 2021 | <sub><sup>Human Behavior Understanding with UAVs ([CVPR](https://arxiv.org/abs/2104.00946))</sup></sub> 
+| [DAC-SDC](https://github.com/xyzxinyizhang/2018-DAC-System-Design-Contest) | 2021 | <sub><sup>Lower power object detection challenge ([PAMI](https://ieeexplore.ieee.org/abstract/document/8787881))</sup></sub> 
+| [UAVid](https://uavid.nl/) | 2020 | <sub><sup>Semantic segmentation dataset for UAV imagery</sup></sub>
+| [UAVDT](https://sites.google.com/view/daweidu/projects/uavdt?authuser=0) | 2018 | <sub><sup>Object detection, single object tracking, and multiple object tracking ([ECCV](https://openaccess.thecvf.com/content_ECCV_2018/papers/Dawei_Du_The_Unmanned_Aerial_ECCV_2018_paper.pdf ))</sup></sub> 
+| [Okutama-Action](http://okutama-action.org/) | 2017 | <sub><sup>Concurrent Human Action Detection ([CVPRW](https://arxiv.org/abs/1706.03038))</sup></sub>
+| [UAV123](https://cemse.kaust.edu.sa/ivul/uav123) | 2016 | <sub><sup>Object tracking dataset ([ECCV](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_27))<sub><sup>
+
+
+
 
 
 
