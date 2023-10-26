@@ -437,11 +437,11 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 
 | **Name** | **Year** | **Comments** | 
 | :------ | :------: | :----------------------- |
+| [SUIRD](https://github.com/yyangynu/SUIRD) | 2019 | <sub><sup>Small UAV Image Registration Dataset (SUIRD)</sup></sub> 
 | [Urban Drone Dataset (UDD)](https://github.com/MarcWong/SemanticSfM/tree/master/dataset) | 2018 | <sub><sup>Structure from Motion of Aerial Images ([PRCV](https://link.springer.com/chapter/10.1007/978-3-030-03398-9_30))</sup></sub>
 | [UAV image mosaicking dataset](https://github.com/YuhuaXu/UAV-image-mosaicing-dataset) | 2016 | <sub><sup>Dataset for Unmanned Aerial Vehicle (UAV) Image Mosaicking ([RS](https://www.mdpi.com/2072-4292/8/3/204))</sup></sub>
 | [ISPRS/EuroSDR Benchmark for <br>Multi-Platform Photogrammetry](https://www2.isprs.org/commissions/comm2/icwg-2-1a/benchmark_main/) | 2015 | <sub><sup>For dense Image Matching and Image Orientation</sup></sub>
 | [Benchmark on High Density <br>Aerial Image Matching](https://ifpwww.ifp.uni-stuttgart.de/ISPRS-EuroSDR/ImageMatching/default.aspx) | 2015 | <sub><sup>For dense image matching</sup></sub>
-| [SUIRD](https://github.com/yyangynu/SUIRD) | -- | <sub><sup>Small UAV Image Registration Dataset (SUIRD)</sup></sub> 
 | :triangular_flag_on_post: Semantic |  |  |
 | [HIT-UAV](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset) | 2023 | <sub><sup>A high-altitude UAV-based infrared thermal dataset for object detection ([Paper](https://www.nature.com/articles/s41597-023-02066-6)/[Homepage](https://pegasus.ac.cn/))</sup></sub> 
 | [UAV-ROD](https://github.com/fengkaibit/UAV-ROD) | 2022 | <sub><sup>Car detection (rotating object detection) dataset for UAV imagery ([NeuroCom](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007676))</sup></sub> 
