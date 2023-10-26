@@ -19,7 +19,7 @@ This repository contains a collection of research papers and resources for Mini-
      - [6. Dense Reconstruction](#6-Dense-reconstruction)
      - [7. Image Stitching](#7-Image-stitching)
      - [8. Multi-sensor Data Registration](#8-Multi-sensor-data-registration)
-- [Dataset & Tools](#Dataset-and-Tools) 
+- [Dataset & Tools](#Dataset-&-Tools) 
 - [Citation](#Citation)
 
 
