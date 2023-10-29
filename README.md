@@ -466,7 +466,7 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 Please cite our paper if you find the work useful:
 
 ```
-@article{fan2023csu,
+@article{xiang2019mini,
   title={Mini-Unmanned Aerial Vehicle-Based Remote Sensing: Techniques, Applications, and Prospects},
   author={Tian-Zhu Xiang, Gui-Song Xia, Liangpei Zhang},
   journal={IEEE Geoscience and Remote Sensing Magazine},
