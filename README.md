@@ -443,6 +443,7 @@ We hope this work will provide remote-sensing researchers an overall picture of 
 | [ISPRS/EuroSDR Benchmark for <br>Multi-Platform Photogrammetry](https://www2.isprs.org/commissions/comm2/icwg-2-1a/benchmark_main/) | 2015 | <sub><sup>For dense Image Matching and Image Orientation</sup></sub>
 | [Benchmark on High Density <br>Aerial Image Matching](https://ifpwww.ifp.uni-stuttgart.de/ISPRS-EuroSDR/ImageMatching/default.aspx) | 2015 | <sub><sup>For dense image matching</sup></sub>
 | :triangular_flag_on_post: Semantic |  |  |
+| [InsPLAD](https://github.com/andreluizbvs/InsPLAD) | 2023 | <sub><sup>Inspection of Power Line Assets: the Dataset (InsPLAD) ([Paper](https://arxiv.org/abs/2311.01619)) </sup></sub> 
 | [HIT-UAV](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset) | 2023 | <sub><sup>A high-altitude UAV-based infrared thermal dataset for object detection ([Paper](https://www.nature.com/articles/s41597-023-02066-6)/[Homepage](https://pegasus.ac.cn/))</sup></sub> 
 | [UAV-ROD](https://github.com/fengkaibit/UAV-ROD) | 2022 | <sub><sup>Car detection (rotating object detection) dataset for UAV imagery ([NeuroCom](https://www.sciencedirect.com/science/article/abs/pii/S0925231222007676))</sup></sub> 
 | [VisDrone](https://github.com/VisDrone/VisDrone-Dataset) | 2021 | <sub><sup>Object detection and tracking from UAV data ([PAMI](https://arxiv.org/abs/2001.06303))</sup></sub> 
